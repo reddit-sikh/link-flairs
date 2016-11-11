@@ -1,71 +1,30 @@
-.linkflair {
+.linkflair::before {
     background-image: url(spritesheet.png);
     background-repeat: no-repeat;
+    width: 64px;
+    height: 64px;
+    transform: scale(0.5);
     display: block;
 }
 
-.linkflair-advice {
-    width: 64px;
-    height: 64px;
-    background-position: -5px -5px;
-}
+.linkflair-advice::before { background-position: -5px -5px; }
 
-.linkflair-discussion {
-    width: 64px;
-    height: 64px;
-    background-position: -79px -5px;
-}
+.linkflair-discussion::before { background-position: -79px -5px; }
 
-.linkflair-event {
-    width: 64px;
-    height: 64px;
-    background-position: -153px -5px;
-}
+.linkflair-event::before { background-position: -153px -5px; }
 
-.linkflair-gurbani {
-    width: 80px;
-    height: 80px;
-    background-position: -5px -79px;
-}
+.linkflair-gurbani::before { background-position: -5px -79px; }
 
-.linkflair-history {
-    width: 64px;
-    height: 64px;
-    background-position: -95px -79px;
-}
+.linkflair-history::before { background-position: -79px -79px; }
 
-.linkflair-katha {
-    width: 96px;
-    height: 96px;
-    background-position: -95px -153px;
-}
+.linkflair-katha::before { background-position: -153px -79px; }
 
-.linkflair-kirtan {
-    width: 82px;
-    height: 82px;
-    background-position: -227px -5px;
-}
+.linkflair-kirtan::before { background-position: -5px -153px; }
 
-.linkflair-news {
-    width: 64px;
-    height: 64px;
-    background-position: -201px -97px;
-}
+.linkflair-news::before { background-position: -79px -153px; }
 
-.linkflair-quality {
-    width: 64px;
-    height: 64px;
-    background-position: -275px -97px;
-}
+.linkflair-quality::before { background-position: -153px -153px; }
 
-.linkflair-question {
-    width: 64px;
-    height: 64px;
-    background-position: -5px -171px;
-}
+.linkflair-question::before { background-position: -227px -5px; }
 
-.linkflair-song {
-    width: 64px;
-    height: 64px;
-    background-position: -201px -171px;
-}
+.linkflair-song::before { background-position: -227px -79px; }
